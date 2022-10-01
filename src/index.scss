@@ -1,9 +1,32 @@
-body, * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('./assets/fonts/Gilroy-Regular.eot');
+  src: url('./assets/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/Gilroy-Regular.woff') format('woff'),
+    url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
   font-size: 10px;
+  line-height: 10px;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'Gilroy-Regular';
+}
+
+:root {
+  --main: #388af3;
+  --black-light: #303030;
+  --black-regular: #282828;
+  --black-super-light: #343434;
+  --white: #ffffff;
+  --gray: #cccccc;
+  --red: #ff0000;
 }
