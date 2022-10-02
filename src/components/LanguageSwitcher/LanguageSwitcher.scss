@@ -1,0 +1,17 @@
+@import '../../constants/mixins.scss';
+
+.ls-wrap {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.language {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 2rem;
+  cursor: pointer;
+  color: var(--dark-gray);
+
+  @include active-in-header;
+}

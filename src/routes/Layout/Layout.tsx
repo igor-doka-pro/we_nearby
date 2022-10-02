@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
-import { Header } from '../components/Header/Header';
-import { ROOT_PAGE } from '../constants/path';
+import { Header } from '../../components/Header/Header';
+import { ROOT_PAGE } from '../../constants/path';
+import './Layout.scss';
 
 export const Layout = () => {
   const { pathname } = useLocation();
@@ -15,9 +16,9 @@ export const Layout = () => {
   }, [isRootPage]);
 
   return (
-    <>
+    <div className="layout-wrap">
       <Header />
       <Outlet />
-    </>
+    </div>
   );
 };
