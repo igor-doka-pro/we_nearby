@@ -11,7 +11,7 @@ import {
 
 const Projects = lazy(() => import('./Projects'));
 const AboutCompany = lazy(() => import('./AboutCompany'));
-const Contacts = lazy(() => import('./Contacts'));
+const Contacts = lazy(() => import('./Contacts/Contacts'));
 
 const preload = <div>Загрузка...</div>;
 const notFound = 404;

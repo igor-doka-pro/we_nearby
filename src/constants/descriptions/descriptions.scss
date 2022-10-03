@@ -1,0 +1,12 @@
+.contacts-description {
+  font-size: 2rem;
+  line-height: 3rem;
+  width: 54.2rem;
+  color: var(--black-super-light);
+
+  &__link {
+    font-size: 2rem;
+    color: var(--main);
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,14 @@
+.meatball-wrap {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.meatball__item {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--main);
+  border-radius: 50%;
+}

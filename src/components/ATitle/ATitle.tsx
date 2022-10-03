@@ -1,7 +1,4 @@
-import React from 'react';
+import { IATitle } from './type';
+import './ATitle.scss';
 
-const ATitle = () => {
-  return <div></div>;
-};
-
-export default ATitle;
+export const ATitle = ({ variant, children }: IATitle) => <h3 className={variant}>{children}</h3>;

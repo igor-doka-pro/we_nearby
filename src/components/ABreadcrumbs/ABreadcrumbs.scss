@@ -1,0 +1,10 @@
+.breadcrumbs__item {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: var(--black-light);
+  font-weight: 300;
+
+  &_current {
+    font-weight: 600;
+  }
+}
