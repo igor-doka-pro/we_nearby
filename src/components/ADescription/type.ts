@@ -1,6 +1,5 @@
 import React from 'react';
-import { JsxElement } from 'typescript';
 
-export interface IDescription {
+export interface IDescriptionProps {
   children: React.ReactElement | string;
 }

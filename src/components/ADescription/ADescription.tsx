@@ -1,3 +1,3 @@
-import { IDescription } from './type';
+import { IDescriptionProps } from './type';
 
-export const ADescription = ({ children }: IDescription) => <>{children}</>;
+export const ADescription = ({ children }: IDescriptionProps) => <>{children}</>;
